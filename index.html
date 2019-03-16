@@ -4,52 +4,67 @@
     <meta charset="utf-8">
     <title>Online Journal</title>
   </head>
-  <body>
-    <!-- //Header Start -->
-    <header>
-      <h1>Jornal Online</h1>
-    </header>
-    <!-- //Header End -->
+  <body >
+    <table height="900px;">
 
+      <thead>
+        <tr>
+          <th colspan="40">
+            <h1>Jornal Brasil</h1>
+            <h2>As Melhores Piores Noticias</h2>
+          </th>
+        </tr>
+      </thead>
 
-    <table>
-      <tr>
-        <td >
-            <ul>
-              <li>
-                <a href="politica.html">Política</a>
-              </li>
-              <li>
-                <a href="desporto.html">Desporto</a>
-              </li>
-              <li>
-                <a href="financas.html">Finanças</a>
-              </li>
-              <li>
-                <a href="moda.html">Moda</a>
-              </li>
-            </ul>
+      <tbody>
+        <tr>
+          <td colspan="8" style="background-color:red;">
+            <nav>
+              <ul>
+                <li>
+                  <a href="politica.html">Política</a>
+                </li>
+                <li>
+                  <a href="desporto.html">Desporto</a>
+                </li>
+                <li>
+                  <a href="financas.html">Finanças</a>
+                </li>
+                <li>
+                  <a href="moda.html">Moda</a>
+                </li>
+              </ul>
+            </nav>
+
+          </td>
+          <td colspan="12" style="background-color:green;">
+            <section id="politica">
+            <article class="">
+              <header>
+                <h2>Lorem Ipsum 1</h2>
+              </header>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <footer>Autor: João - Jornalista Chefe</footer>
+            </article>
+          </section>
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="8" style="background-color:yellow;">
             <h2>Registra-te!!</h2>
             <label for="nome">Nome: </label>
             <input type="text" name="nome" id="nome" value="">
             <br>
             <label for="email">Email: </label>
             <input type="email" name="email" id="email" value="">
-        </td>
-        <td rowspan="6" colspan="6">
-          <section id="politica">
-            <article class="">
-              <header>
-                <h2>Lorem Ipsum 1</h2>
-              </header>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
-                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
-                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br />
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <footer>Autor: João - Jornalista Chefe</footer>
-            </article>
-          </section>
-          <section id="desporto">
+
+          </td>
+          <td colspan="12" style="background-color:blue;">
+            <section id="desporto">
             <article class="">
               <header>
                 <h2>Lorem Ipsum 2</h2>
@@ -60,7 +75,15 @@
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              <footer>Autor: João - Jornalista Chefe</footer>
             </article>
           </section>
-          <section id="financas">
+
+          </td>
+        </tr>
+        <tr>
+          <td colspan="8" style="background-color:red;">
+
+
+          </td>
+          <td colspan="25" style="background-color:pink;"><section id="financas">
             <article class="">
               <header>
                 <h2>Lorem Ipsum 3</h2>
@@ -71,7 +94,28 @@
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              <footer>Autor: João - Jornalista Chefe</footer>
             </article>
           </section>
-          <section id="moda">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="8" style="background-color:red;">
+            <ul>
+              <li>
+                <a href="politica.html">Sobre nos</a>
+              </li>
+              <li>
+                <a href="desporto.html">Contacte-nos</a>
+              </li>
+              <li>
+                <a href="financas.html">Carreira</a>
+              </li>
+              <li>
+                <a href="moda.html">Editora</a>
+              </li>
+            </ul>
+
+          </td>
+          <td colspan="8" style="background-color:gray;">
+            <section id="moda">
             <article class="">
               <header>
                 <h2>Lorem Ipsum 4</h2>
@@ -82,11 +126,11 @@
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                <footer>Autor: João - Jornalista Chefe</footer>
             </article>
           </section>
-        </td>
 
-      </tr>
+          </td>
+        </tr>
+      </tbody>
     </table>
-
 
     <!-- Footer Start -->
     <footer>
