@@ -3,22 +3,21 @@ body{
   margin: auto;
   padding-bottom: 60px;
   position: relative;
-}
-
-header{
-
-
+  background-color: #e7eaf6;
 }
 
 .name{
   font-size: 80px;
   padding: 20px 40px;
   margin: 0;
-  background-color: blue;
+  background-color: #113f67;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
 }
 
 .menu{
-  background-color: lightblue;
+  background-color: #38598b;
   height: 50px;
 }
 
@@ -29,8 +28,52 @@ header{
 
 .menu li{
   display: inline;
-  padding: 0 20px
+  padding: 0 20px;
+  text-shadow: 2px 2px 5px #000;
 }
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.arcticle{
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.posts{
+  min-height: 720px;
+  padding: 10px 0 10px 20px;
+  margin-left: 210px;
+}
+
+.posts img{
+  float: right;
+}
+
+.posts footer{
+  clear: right;
+  padding-top: 20px;
+  margin-bottom: 10px
+}
+.comments{
+  float: right;
+  border: solid 1px;
+  padding: 3px;
+  border-radius: 3px;
+  width: 110px;
+  text-align: center;
+
+}
+
+.postContent{
+  margin-right: 180px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
 
 #logout {
   float: right;
@@ -38,10 +81,20 @@ header{
 
 .profArea{
   width: 200px;
-  height: 900px;
+  height: 800px;
   position: relative;
-  background-color: lightgray;
+  background-color: #a2a8d3;
   padding: 20px 10px 0;
+  float: left;
+}
+
+.profArea li{
+  padding-top: 2px;
+  display: block;
+}
+
+.profArea a{
+  text-decoration: none;
 }
 
 .contacts{
@@ -49,11 +102,12 @@ header{
   bottom: 20px;
 }
 
-footer{
+.footer{
   text-align: center;
-  background-color:darkgray;
+  background-color:#38598b;
   position:absolute;
   bottom: 0;
   height: 60px;
   width:100%;
+  color: lightgray;
 }
