@@ -1,0 +1,59 @@
+body{
+  max-width:85%;
+  margin: auto;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+header{
+
+
+}
+
+.name{
+  font-size: 80px;
+  padding: 20px 40px;
+  margin: 0;
+  background-color: blue;
+}
+
+.menu{
+  background-color: lightblue;
+  height: 50px;
+}
+
+.menu ul{
+  margin-top: 0;
+  padding: 15px;
+}
+
+.menu li{
+  display: inline;
+  padding: 0 20px
+}
+
+#logout {
+  float: right;
+}
+
+.profArea{
+  width: 200px;
+  height: 900px;
+  position: relative;
+  background-color: lightgray;
+  padding: 20px 10px 0;
+}
+
+.contacts{
+  position: absolute;
+  bottom: 20px;
+}
+
+footer{
+  text-align: center;
+  background-color:darkgray;
+  position:absolute;
+  bottom: 0;
+  height: 60px;
+  width:100%;
+}
