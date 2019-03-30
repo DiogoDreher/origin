@@ -28,8 +28,26 @@
 
 //5
 
-let form = document.getElementsByTagName('form')[0];
-form.addEventListener('submit', function(){
-  alert('Submitted!!');
-  event.preventDefault();
-});
+// let form = document.getElementsByTagName('form')[0];
+// form.addEventListener('submit', function(){
+//   alert('Submitted!!');
+//   event.preventDefault();
+// });
+
+//6
+
+// let prod = document.createElement('tr');
+// let element = document.getElementById('products');
+// prod.innerHTML = "<td>Apple</td><td><input value='10'></td><td><input type='button' onclick='remove()' value='Remove'></td>";
+//
+// let form = document.getElementsByTagName('form')[0];
+// form.addEventListener('submit', function(){
+//   element.appendChild(prod);
+// });
+
+// 7
+
+// function remove(){
+//   let rmv = document.querySelectorAll('tr');
+//   rmv[1].remove();
+// }
